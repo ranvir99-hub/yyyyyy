@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding: 0;
+	background-color:rgb();
+}
+body{
+	font-family: sans-serif;
+	
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	margin-left: 20px;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right, #f5d602,#ff9c00, #f30e58);
+	padding: 0!important;
+	height:100px;
+}
+
+.navbar-brand {
+	height: 40px;
+	padding-left: 10px;
+
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #000000!important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars{
+	color: #000!important;
+	font-size: 30px!important;
+}
+.navbar-toggler-icon{
+	color: #000!important;
+	font-size: 30px!important;
+}
+.navbar-toggler{
+	outline: none!important;
+}
+/*banner*/
+.header {
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ 	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+ 	position:fixed;
+
+ }
+ .header:before{
+ 	content: "";
+ 	position: absolute;
+ 	top: 0%;
+ 	bottom: 0%;
+ 	left:0%;
+ 	right:0%;
+ 	opacity: .8;
+ 	z-index: -1;
+ 	background: linear-gradient(to right, #f5d602,#ff9c00, #f30e58);
+ }
+.header-section{
+ 	width:100%;
+ 	height: inherit;
+ 	color: #228b22;
+ 	text-align: left;
+ 	position: center;
+ }
+
+ .center-div{
+ 	width:100%;
+ 	height: auto;
+ 	position: absolute;
+
+ 	top:25%;
+ 	bottom: 50%;
+ 	transform: translate(-50% -50%);
+ 	-ms-transform: translate(-50% -50%);
+ 	-webkit-transform: translate(-50% -50%);
+ }
+ p{
+ 	font-size: 0.9rem;
+ 	line-height: 1.6;
+ 	font-weight: 400;
+ 	color:#000000;
+ }
+ .header-button a{
+ 	border: 1px solid #228b22;
+ 	border-radius: 100px;
+ 	margin: 0 5px;
+ 	padding: 12px 35px;
+ 	outline: none;
+ 	color: #000000;
+ 	font-size: 1rem;
+ 	font-weight: 400;
+ 	font: height -1.4em;
+ 	text-align: center;
+ 	
+
+ } 
+ .header-button a:hover{
+ 	color: #fff;
+ 	font-weight: bold;
+ 	background: #228b22;
+ 	text-decoration: none;
+ 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+ }
+ .center-div p{
+ 	font-size: 1.3rem;
+ 	padding: 10px 0 20px 0;
+ 	color:#228b22;
+ }
+ /*---banner---->
+ /* extra div*/
+ .header-extradiv{
+ 	width:100%;
+ 	height:auto;
+ 	margin:100px 0;
+ 	text-align: center;
+
+ }
+ .extra-div{
+ 	background: #fff;
+ 	border:medium none;
+ 	padding:50px!important;
+ 	border-radius:3px; 
+ 	transition: 0.3s;
+ }
+ .extra-div:hover{
+ 		box-shadow: 0 0 20px 0 rgb(52, 152, 219);
+ 		transform: translateY(-20px);
+ }
+ .extra-div h2,.servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height:1.1;
+	word-spacing: 4px;
+	
+}
+h2,h1{
+	color: ##000000;
+	font-weight: bold;
+}
+i{
+	color: #2fccd0;
+}
+ /* extra div end*/
+/* help starts*/
+.serviceoffers img{
+  float: left;
+}
+.serviceoffers{
+  		background: #f7f7f9;
+  		padding: 50px 0;
+  		margin-bottom: 50px;
+  	}
+
+  	.headings {
+  		margin-bottom: 50px;
+  	}
+  	.headings h1{
+  		font-size: 1.5rem;
+  		font-weight: 600;
+  		text-transform: uppercase;
+  	}
+  	.names h1{
+  		color: #2e2e2e;
+  		font-size:0.9rem;
+  		text-transform: uppercase;
+  		font-weight: bold;
+  	}
+  	.service-icons{
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  	}
+  	.progress{
+  		height: 0.6rem!important;
+  		margin-bottom: 25px!important;
+
+  	}
+/* help ends*/
+ /* footerends*/
+  .footer{
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  background-image: linear-gradient(to right, #f5d602,#ff9c00, #f30e58);
+  padding: 0!important;
+  }
+   .blockquote1{
+  width: 100%;
+  position: relative;
+  background-size: 100% 100%;
+  }
+  /*footer ends*/
+
+.TICKET_and_OFFERS
+{
+
+	height:300px; 
+	text-decoration-color: #f5d602; 
+}
+
+.icons
+{
+position:sticky;
+left:30px;
+size:30px;
+width:30px;
+height:30px;
+text-align-last:10px;
+
+}
+
+p
+{
+	text-align:10px;
+	font-size:20px;
+	font-style:Garamond;
+}
+
+
+
+ /* service offers css starts*/
+  	.serviceoffers{
+  		background: #f7f7f9;
+  		padding: 50px 0;
+  		margin-bottom: 50px;
+  	}
+
+  	.headings {
+  		margin-bottom: 50px;
+  	}
+  	.headings h1{
+  		font-size: 1.5rem;
+  		font-weight: 600;
+  		text-transform: uppercase;
+  	}
+  	.names h1{
+  		color: #2e2e2e;
+  		font-size:0.9rem;
+  		text-transform: uppercase;
+  		font-weight: bold;
+  	}
+  	.service-icons{
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  	}
+  	.progress{
+  		height: 0.6rem!important;
+  		margin-bottom: 25px!important;
+
+  	}
+  /* service offers css ends*/
+
+
+.carousel slide
+{
+margin-right:50px;
+
+}
